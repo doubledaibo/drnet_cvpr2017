@@ -59,10 +59,10 @@ The details of these networks are
 
 If you use this code, please cite the following paper(s):
 
-@article{dai2017detecting,
-  title={Detecting Visual Relationships with Deep Relational Networks},
-  author={Dai, Bo and Zhang, Yuqi and Lin, Dahua},
-  journal={arXiv preprint arXiv:1704.03114},
-  year={2017}
-}
+	@article{dai2017detecting,
+		title={Detecting Visual Relationships with Deep Relational Networks},
+		author={Dai, Bo and Zhang, Yuqi and Lin, Dahua},
+  		journal={arXiv preprint arXiv:1704.03114},
+  		year={2017}
+	}
 

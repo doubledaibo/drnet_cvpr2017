@@ -1,4 +1,4 @@
-# Code of [Detecting Visual Relationship with Deep Relational Networks](https://arxiv.org/abs/1704.03114)
+# Code of [Detecting Visual Relationships with Deep Relational Networks](https://arxiv.org/abs/1704.03114)
 
 The code is written in python, and all networks are implemented using [Caffe](https://github.com/BVLC/caffe).
 

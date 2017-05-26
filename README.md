@@ -66,3 +66,6 @@ If you use this code, please cite the following paper(s):
   		year={2017}
 	}
 
+## License
+
+This code is used for research only. See LICENSE for details.

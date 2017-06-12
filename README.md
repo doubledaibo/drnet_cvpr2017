@@ -59,7 +59,7 @@ The details of these networks are
 
 ### Structure
 
-![Structure](https://github.com/doubledaibo/drnet/blob/master/imgs/pair_filter.pdf)
+![Structure](https://raw.github.com/doubledaibo/drnet/master/imgs/pair_filter.png)
 
 ### Training
 

@@ -55,6 +55,18 @@ The details of these networks are
 3. Download one pretrain model in snapshots/
 4. Finetune or Evaluate using corresponding prototxts in prototxts/
 
+## Pair Filter
+
+### Structure
+
+![Structure](https://github.com/doubledaibo/drnet/blob/master/imgs/pair_filter.pdf)
+
+### Training
+
+To train this network, we randomly sample pairs of bounding boxes from 
+each training image, treating those with 0.5 IoU (or above) with any ground-truth pairs
+as positive samples, and the rest as negative samples.
+
 ## Citation
 
 If you use this code, please cite the following paper(s):

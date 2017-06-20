@@ -63,8 +63,8 @@ The details of these networks are
 
 ### Training
 
-To train this network, we randomly sample pairs of bounding boxes from 
-each training image, treating those with 0.5 IoU (or above) with any ground-truth pairs
+To train this network, we randomly sample pairs of bounding boxes (with labels) from 
+each training image, treating those with 0.5 IoU (or above) with any ground-truth pairs (with same labels)
 as positive samples, and the rest as negative samples.
 
 ## Citation

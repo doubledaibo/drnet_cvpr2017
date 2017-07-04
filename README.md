@@ -4,7 +4,7 @@ The code is written in python, and all networks are implemented using [Caffe](ht
 
 ## Datasets 
 
-* [VRD](https://github.com/Prof-Lu-Cewu/Visual-Relationship-Detection)
+* [VRD](http://cs.stanford.edu/people/ranjaykrishna/vrd/dataset.zip)
 * sVG: subset of [Visual Genome](https://visualgenome.org/)
 will be available soon.
 

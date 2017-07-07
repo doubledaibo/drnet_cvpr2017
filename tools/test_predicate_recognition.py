@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import _init_paths_rel
+import _init_paths
 import caffe
 import argparse
 import time, os, sys

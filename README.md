@@ -87,8 +87,7 @@ If you use this code, please cite the following paper(s):
 	@article{dai2017detecting,
 		title={Detecting Visual Relationships with Deep Relational Networks},
 		author={Dai, Bo and Zhang, Yuqi and Lin, Dahua},
-  		booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition
-},
+  		booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
   		year={2017}
 	}
 

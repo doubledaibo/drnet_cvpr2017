@@ -33,6 +33,19 @@ The details of these networks are
 
 * drnet_8units_relu_shareweight: it has 8 inference units with relu function as the activation function, and the weights are shared across units.
 
+### Training
+
+The training procedure is component-by-component. 
+Specifically, a network usually contains three components, 
+namely the subnet for appearance (A), the subnet for spatial cues (S), and the drnet for statistical dependencies (D).
+In training, we train the network as follow:
+* train A in isolation
+* train S in isolation
+* train A + S in isolation, with weights initialized from previous steps
+* train A + S + D jointly, with weights initialized from previous steps
+
+Each step we use the same loss, and we use dropout to avoid overfit.
+
 ### Recalls on Predicate Recognition
 
 | Networks | Recall@50 | Recall@100 |

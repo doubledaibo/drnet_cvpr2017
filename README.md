@@ -50,9 +50,9 @@ Each step we use the same loss, and we use dropout to avoid overfit.
 
 | Networks | Recall@50 | Recall@100 |
 | --- | :---: | :---: |
-| drnet_8units_softmax | 77.01 | 78.28 |
-| drnet_8units_linear_shareweight | 80.66 | 81.85 |
-| drnet_8units_relu_shareweight | 82.52 | 83.71 |
+| drnet_8units_softmax | 75.22 | 77.55 |
+| drnet_8units_linear_shareweight | 78.57 | 79.94 |
+| drnet_8units_relu_shareweight | 80.86 | 81.83 |
 
 ## Codes
 

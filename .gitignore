@@ -1,2 +1,5 @@
 snapshots/*.caffemodel
 dataset/
+*.pyc
+*.xml
+*\#

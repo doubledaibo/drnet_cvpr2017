@@ -7,32 +7,32 @@ layer {
         top: "posdata"
         top: "labels"
         include {
-                phase: TRAIN     
-        }         
-        python_param {                 
-                module: 'rel_data_layer.layer'              
-                layer: 'RelDataLayer'                 
-                param_str: '{"dataset": "reltrain.json", "batch_size": 25, "nclass": 100}'   
-        }         
-}                    
-layer {           
-        name: "data"                   
-        type: "Python"                 
-        top: "qa" 
-        top: "qb" 
-        top: "im" 
-        top: "posdata"                 
-        top: "labels"                  
-        include { 
-                phase: TEST            
-        }         
-        python_param {                 
-                module: 'rel_data_layer.layer'              
+                phase: TRAIN
+        }
+        python_param {
+                module: 'rel_data_layer.layer'
+                layer: 'RelDataLayer'
+                param_str: '{"dataset": "reltrain.json", "batch_size": 25, "nclass": 100}'
+        }
+}
+layer {
+        name: "data"
+        type: "Python"
+        top: "qa"
+        top: "qb"
+        top: "im"
+        top: "posdata"
+        top: "labels"
+        include {
+                phase: TEST
+        }
+        python_param {
+                module: 'rel_data_layer.layer'
                 layer: 'RelDataLayer'
                 param_str: '{"dataset": "reltest.json", "batch_size": 25, "nclass": 100}'
-        }         
+        }
 }
-# Appearance Subnet 
+# Appearance Subnet
 layer {
 	name: "conv1_1"
 	type: "Convolution"
@@ -41,7 +41,7 @@ layer {
 	param {
 		lr_mult: 0
 		decay_mult: 0
-	} 
+	}
 	param {
 		lr_mult: 0
 		decay_mult: 0
@@ -145,7 +145,7 @@ layer {
 	top: "conv2_2"
 }
 layer {
-	name: "pool2"	
+	name: "pool2"
 	type: "Pooling"
 	bottom: "conv2_2"
 	top: "pool2"
@@ -686,7 +686,7 @@ layer {
 		lr_mult: 1
 		decay_mult: 1
 	}
-	param {	
+	param {
 		lr_mult: 2
 		decay_mult: 0
 	}

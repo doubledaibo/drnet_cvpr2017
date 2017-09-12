@@ -86,7 +86,7 @@ def eval_recall(args):
 			gt_ubbs.append(getUnionBB(gt_bboxes[j, 0, :], gt_bboxes[j, 1, :]))
 		total_num_gts += num_gts
 		gt_detected = np.zeros(num_gts)
-		if dets[i].shape[0] > 0:
+		if isinstance(dets[i], np.ndarray) and dets[i].shape[0] > 0:
 			det_score = np.log(dets[i][:, 0]) + np.log(dets[i][:, 1]) + np.log(dets[i][:, 2])
 			inds = np.argsort(det_score)[::-1]
 			if args.num_dets > 0 and args.num_dets < len(inds):

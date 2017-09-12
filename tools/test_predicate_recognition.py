@@ -140,7 +140,7 @@ def test_net(net, image_paths, args):
 			qas.append(qa)
 			qbs.append(qb)
 		if len(ims) == 0:
-			break
+			continue
 		ims = np.array(ims)
 		poses = np.array(poses)
 		qas = np.array(qas)

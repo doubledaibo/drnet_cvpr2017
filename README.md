@@ -6,7 +6,7 @@ The code is written in python, and all networks are implemented using [Caffe](ht
 
 * [VRD](http://cs.stanford.edu/people/ranjaykrishna/vrd/dataset.zip)
 * sVG: subset of [Visual Genome](https://visualgenome.org/)
-	- [Link](https://drive.google.com/file/d/0B5RJWjAhdT04SXRfVHBKZ0dOTzQ/view?usp=sharing)
+	- [Link](https://drive.google.com/file/d/0B5RJWjAhdT04SXRfVHBKZ0dOTzQ/view?usp=sharing&resourcekey=0-bW_W0QVJOfaNs5NyGjDjbQ)
 	- Images can be downloaded from the website of Visual Genome
 	- Remarks: eventually I found no time to further clean it. This subset has a manually cleaned list for relationship predicates. The list for objects may need further cleaning, although Faster-RCNN can get a recall@20 around 50%.
 	- Using our method, you can get the corresponding results reported in the paper on this dataset.
